@@ -2,6 +2,7 @@ pragma solidity ^0.6.0;
 // ERC Token Standard #20 Interface
 // https://github.com/ethereum/EIPs/issues/20
 
+
 abstract contract ERC20Interface {
  // Get the total token supply
  function totalSupply() view virtual public returns (uint256);
