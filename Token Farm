@@ -4,7 +4,9 @@ import "https://github.com/smartcontractkit/chainlink/blob/develop/evm-contracts
 import "./IERC20.sol";
 import "./Ownable.sol";
 
-contract TussleTokenFarm is ChainlinkClient, Ownable {string public name = "Tussle Token Farm";
+contract TussleTokenFarm is ChainlinkClient, Ownable {
+
+string public name = "Tussle Token Farm";
 IERC20 public tussleToken;
 address[] public stakers;
 mapping(address => mapping(address => uint256)) public stakingBalance;
